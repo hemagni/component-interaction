@@ -1,0 +1,8 @@
+.history-container {
+    border: 1px solid green;
+    /*overflow: auto;*/
+    width: 400px;
+    height: 100px;
+    overflow-y: auto;
+
+}

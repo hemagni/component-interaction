@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: dodgerblue;
@@ -15,19 +15,20 @@
 }
 
 .navigation > a {
-    padding: 10px;
+    padding: 5px 10px;
     text-decoration: none;
     background-color: rgb(159, 248, 159);
     color: red;
     border-right: 2px solid green;
+    transition-duration: 1s;
 }
 
 .navigation>a:last-child{
-    border: none;
+    border-right: none;
 }
 
 .navigation a:hover {
     box-shadow: 0 4px 6px 0 rgba(0,0,0,.19), 0 14px 16px 0 rgba(0,0,0,.20);
     background-color: black;
-    font-weight: bold;
+    color: white;
 }
